@@ -1,0 +1,74 @@
+:root{
+    --blanco: #fff;
+    --rojo: #e91e63;
+    --negro: #000;
+    --ne-me: #242424;
+    --instagram: #FC2BFF ;
+    --twitter: #538CFF;
+    --twitch: #A82BFF;
+    --mail: #EA1010;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    background: url(/img/background.svg);
+    background-attachment: fixed;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+.nav{
+    background: linear-gradient(rgb(0 0 0 / .75), rgb(0 0 0 / .75));
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(3px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+}
+
+.menu-des img{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.txt-nav{
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.txt-nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.txt-nav a{
+    color: var(--blanco);
+    text-decoration: none;
+    margin: 7px;
+    transition: all 1s ease;
+}
+
+.txt-nav a:hover{
+    text-decoration: underline;
+    color: var(--rojo);
+}
