@@ -199,7 +199,7 @@ html{
 
 .card{
     width: 350px;
-    height: 350px;
+    height: 400px;
     margin: 5px;
     border: 1px solid var(--ne-me);
     display: flex;
@@ -242,7 +242,7 @@ html{
     color: var(--negro);
     border: 1px solid var(--negro);
     border-radius: 12px;
-    padding: 5px 40px;
+    padding: 5px 35px;
     transition: all 1s ease;
 }
 
